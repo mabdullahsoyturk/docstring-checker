@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: docstring-checker
+Version: 0.1.0
+Summary: A pre-commit hook to ensure public docstrings have examples.
+Author: Muhammet Soyturk
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown

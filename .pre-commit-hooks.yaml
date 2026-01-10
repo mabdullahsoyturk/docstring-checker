@@ -1,0 +1,6 @@
+- id: check-docstring-examples
+  name: Check Docstring Examples
+  description: Verifies that public classes and functions contain an 'Examples' or '>>>' section.
+  entry: check-docstring-examples
+  language: python
+  types: [python]

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docstring-checker"
+version = "0.1.0"
+description = "A pre-commit hook to ensure public docstrings have examples."
+authors = [{name = "Muhammet Soyturk"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+check-docstring-examples = "docstring_checker.main:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
