@@ -4,6 +4,30 @@ A Python pre-commit hook that enforces the presence of an "Examples" section in 
 
 This tool helps maintain high-quality documentation by ensuring that all public APIs include usage examples or doctests.
 
+**Good**:
+```Python
+def add(a, b):
+    """
+    Returns the sum of two numbers.
+
+    Examples
+    --------
+    >>> add(2, 3)
+    5
+
+    """
+    return a + b
+```
+
+**Bad**:
+```Python
+def add(a, b):
+    """
+    Returns the sum of two numbers.
+    """
+    return a + b
+```
+
 ## Features
 
 * **Public API Focus:** Automatically checks public classes, functions, and methods (skips names starting with `_`).
