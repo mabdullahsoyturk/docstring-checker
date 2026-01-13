@@ -1,2 +1,0 @@
-[console_scripts]
-check-docstring-examples = docstring_checker.main:main

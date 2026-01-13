@@ -1,9 +1,0 @@
-README.md
-pyproject.toml
-src/docstring_checker/__init__.py
-src/docstring_checker/main.py
-src/docstring_checker.egg-info/PKG-INFO
-src/docstring_checker.egg-info/SOURCES.txt
-src/docstring_checker.egg-info/dependency_links.txt
-src/docstring_checker.egg-info/entry_points.txt
-src/docstring_checker.egg-info/top_level.txt
