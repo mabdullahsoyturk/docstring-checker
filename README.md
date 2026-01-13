@@ -44,7 +44,7 @@ Add this to your `.pre-commit-config.yaml`:
 
 ```yaml
 repos:
-  - repo: [https://github.com/mabdullahsoyturk/docstring-checker](https://github.com/mabdullahsoyturk/docstring-checker)
+  - repo: https://github.com/mabdullahsoyturk/docstring-checker
     rev: v0.1.0  # Use the latest release tag
     hooks:
       - id: check-docstring-examples
@@ -65,7 +65,7 @@ You can pass arguments to the hook in your pre-commit config. For example, to en
 You can also install and run the tool manually via pip if you have the package installed:
 
 ```bash
-uv pip install git+[https://github.com/mabdullahsoyturk/docstring-checker.git](https://github.com/mabdullahsoyturk/docstring-checker.git)
+uv pip install git+https://github.com/mabdullahsoyturk/docstring-checker.git
 
 # Run on specific files
 check-docstring-examples src/my_project/main.py
@@ -101,7 +101,7 @@ This project uses uv for dependency management.
 
 ### Setup
 ```bash
-git clone [https://github.com/mabdullahsoyturk/docstring-checker.git](https://github.com/mabdullahsoyturk/docstring-checker.git)
+git clone https://github.com/mabdullahsoyturk/docstring-checker.git
 cd docstring-checker
 uv sync
 ```
